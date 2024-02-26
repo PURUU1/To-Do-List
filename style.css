@@ -1,0 +1,83 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+.a{
+  display: flex;
+  flex-direction: colum;
+}
+.box{
+  border: none;
+  border-radius: 15px 15px 0px 0px ;
+  background-color: lightseagreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+h1{
+  color: white;
+}
+
+.box2 input:checked{
+
+  background-color:green;
+}
+
+
+ 
+#sbtn{
+ background-color: lightcoral;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  margin:5px 10px 5px 5px;
+}
+#clear{
+  background-color: lightcoral;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  margin:5px 5px 5px 10px;
+}
+#box3{
+  padding: 50px;
+}
+#input{
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+.box2{
+  border: none;
+  border-radius: 0px 0px 15px 15px ;
+  background-color:lightslategray;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px
+}
+
+li{
+  border: none;
+  border-radius:15px ;
+  background-color:lightcoral;
+  color: white;
+}
+#a{
+  color: white;
+}
+#cdone {
+  background-color: red;
+  border-color: red;
+}
